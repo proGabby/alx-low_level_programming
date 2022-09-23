@@ -24,5 +24,8 @@ char *leet(char *s)
 			s[i] = '1';
 	}
 
+	for (i=0; s[i] != '\0'; i++)
+		;
+
 	return (s);
 }
