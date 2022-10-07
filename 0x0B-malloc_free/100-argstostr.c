@@ -38,7 +38,7 @@ char *argstostr(int ac, char **av)
 			a++;
 		}
 		*a = '\n';
-		a++
+		a++;
 	}
 	return (retp);
 
